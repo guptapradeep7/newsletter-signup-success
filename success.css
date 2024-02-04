@@ -1,0 +1,53 @@
+* {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 7% 7%;
+}
+img{
+    padding-top: 30%;
+}
+h1{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#dismiss {
+    padding: 5% 5%;
+    background-color: #242742;
+    color: white;
+    width: 90%;
+    margin: 60% 0% 10% 5%;
+    border: none;
+    border-radius: 10px;
+}
+
+#dismiss:hover{
+    background: linear-gradient(90deg, #F75F84, #e74c3c);
+    cursor: pointer;
+}
+
+@media (min-width: 380px){
+    html{
+        background-color: #36384e;
+    }
+    .main {
+        background-color: white;
+        margin: 10% 38% 15% 38%;
+        border-radius: 15px;
+    }   
+    #dismiss {
+        margin: 5%;
+    }
+    img {
+        width: 30px;
+        padding-top: 5%;
+        /* content: url("./assets/images/icon-list.svg"); */
+    }
+    h1 {
+        padding-top: 5%;
+    }
+    
+}
